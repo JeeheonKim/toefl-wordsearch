@@ -65,8 +65,8 @@ git clone https://github.com/JeeheonKim/toefl-wordsearch.git
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-[s1]: .readme_images/Screenshot_1589289228.png
-[s2]: .readme_images/Screenshot_1589289239.png
+[s1]: .readme_images/Screenshot_1589289228.png "Screenshot1"
+[s2]: .readme_images/Screenshot_1589289239.png "Screenshot2"
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
