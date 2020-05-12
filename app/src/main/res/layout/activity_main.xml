@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:orientation="vertical"
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:gravity="center_horizontal">
+
+<!--        <com.google.android.material.appbar.MaterialToolbar-->
+<!--            android:id="@+id/topAppBar"-->
+<!--            style="@style/Widget.MaterialComponents.Toolbar.Primary"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?attr/actionBarSize"-->
+<!--            app:menu="@menu/top_app_bar"-->
+<!--            app:title="@string/page_title" />-->
+
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="0dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+        <Button
+            android:id="@+id/level0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:text="Level 0" />
+
+        <Button
+
+            android:id="@+id/level1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Level 1" />
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

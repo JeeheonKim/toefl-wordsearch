@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Toefl Wordsearch</string>
+    <string name="page_title">Toefl Wordsearch</string>
+    <string name="content_description_more">More</string>
+    <string name="content_description_favourite">Favourite</string>
+    <string name="favourite">Favourite</string>
+    <string name="more">More</string>
+
 </resources>

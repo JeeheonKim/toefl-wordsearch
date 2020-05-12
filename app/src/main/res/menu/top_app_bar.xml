@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/ic_star_black_24dp"
+        android:title="@string/favourite"
+        android:contentDescription="@string/content_description_favourite"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        android:title="@string/more"
+        android:contentDescription="@string/content_description_more"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <ListView
+        android:id = "@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#dfdfdf"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/gridview"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="120dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:columnWidth="100dp"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:numColumns="10"
+        android:stretchMode="columnWidth"
+        />
+    <Button
+        android:id="@+id/shuffleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="67dp"
+        android:background="#E34E57"
+        android:text="Shuffle" />
+
+    <com.google.android.gms.ads.AdView
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
