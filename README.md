@@ -1,16 +1,4 @@
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Google Playstore][playstore-shield]][https://www.linkedin.com/in/jeeheon-kim/]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/jeeheon-kim/]
 
 <!-- PROJECT LOGO -->
@@ -47,29 +35,12 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
 
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`JeeheonKim`, `repo`, `twitter_handle`, `email`
-
-
 ### Built With
-
 * [Android Studio](https://developer.android.com/studio/)
 * [Java — Programming Language]()
-* []()
 
 
 
@@ -94,55 +65,12 @@ git clone https://github.com/JeeheonKim/toefl-wordsearch.git
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/JeeheonKim/toefl-wordsearch/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-Project Link: [https://github.com/JeeheonKim/toefl-wordsearch](https://github.com/JeeheonKim/toefl-wordsearch)
-
-
+[s1]: .readme_images/Screenshot_1589289228.png
+[s2]: .readme_images/Screenshot_1589289239.png
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 This application is inspired by ***Shopify's fall 2020 Android Mobile Development Internship Challenge***.
-* []()
-* []()
-* []()
-
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -160,11 +88,3 @@ This application is inspired by ***Shopify's fall 2020 Android Mobile Developmen
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-## Reference
-- [TopAppbar](https://material.io/develop/android/components/top-app-bars/)
-
-##💡 Help
-| Assets        | Help from           | visit                         |
-| ------------- |:-------------------:| -----------------------------:|
-| Logo          | hatchful            | https://hatchful.shopify.com/ |
-| WordSearch Logic | Rosetta Code | https://rosettacode.org/wiki/Word_search#Java |
